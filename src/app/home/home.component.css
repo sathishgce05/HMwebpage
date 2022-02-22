@@ -1,0 +1,109 @@
+.row{
+    
+    height: 198px;
+    
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+svg{
+    height: 42px;
+    width: 38px;
+    background: #49b6ba!important;
+    color: white;
+    /* background-color: #fff; */
+    margin-left: 20px;
+}
+input{
+    margin-top: 50px;
+    margin-left: 80px;
+    /* float: right; */
+}
+.placeholder{
+    width: 500px;
+    height: 50px;
+}
+.carousel-control-next, .carousel-control-prev {
+    top:260px;
+  }  
+  .technology-info_technologyInfo{
+      background-color: #EEEEEE;
+      padding: 80px 0px;
+      position: relative;
+      width: 1279px;
+      height: 1183px;
+  }
+  .technology-info_headerTop+h3{
+      font-size: 35px;
+      position: relative;
+      text-decoration: capitalize;
+      width: 1119px;
+      height: 42px;
+      color: #202020;
+     
+  }
+  span.technology-info_headerTop{
+      position: absolute;
+      width: 50px;
+      height: 8px;
+      margin-top: -25px;
+      object-fit: contain;
+      background-image: linear-gradient(90deg,#ffe600 -33%,#c2d717 14%,#39b54a 96%);
+  }
+  div.container{
+      width: 1279px;
+      height: 1023px;
+      padding: 0 80px;
+  }
+  .container{
+      max-width: 100%;
+      padding: 0,80px;
+  }
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+  }
+  div.text-left{
+      text-align: left;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  .techonolgy-info_techblock {
+      border-right: 1px solid #dedede;
+      border-right-width: 1px;
+      border-right-style: solid;
+      border-right-color: rgb(222,222,222);
+      border-bottom: 1px solid
+      #dedede;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: rgb(222,222,222);
+      margin-left: -1px;
+      padding: 27px 27px 27px 27px;
+  }
+  .technology-info_card{
+      background-color: transparent;
+      border: none;
+  }
+  .card{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-clip: border-box;
+      border-radius:.25rem;
+  }
+  .techonolgy-info_techblock img{
+      margin: 10px 0 27px;
+      width: 54px;
+      height: 59px;
+  }
+  a{
+      color: inherit;
+      text-decoration: none;
+      background-color: transparent;
+  }
