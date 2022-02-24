@@ -1,12 +1,18 @@
 .row{
     
     height: 198px;
-    
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
+     display: flex;
+     flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
     }
+    /* .carousel-item p{
+        margin-top: -50px;
+        font-style: normal;
+        font-weight: 14px;
+        font-size: 30px;
+
+    } */
 svg{
     height: 42px;
     width: 38px;
@@ -14,6 +20,9 @@ svg{
     color: white;
     /* background-color: #fff; */
     margin-left: 20px;
+}
+.slick-prev{
+    left: -25px;
 }
 input{
     margin-top: 50px;
@@ -24,9 +33,9 @@ input{
     width: 500px;
     height: 50px;
 }
-.carousel-control-next, .carousel-control-prev {
+/* .carousel-control-next, .carousel-control-prev {
     top:260px;
-  }  
+  }   */
   .technology-info_technologyInfo{
       background-color: #EEEEEE;
       padding: 80px 0px;
@@ -51,15 +60,23 @@ input{
       object-fit: contain;
       background-image: linear-gradient(90deg,#ffe600 -33%,#c2d717 14%,#39b54a 96%);
   }
-  div.container{
+  /* div.carouselExampleSlidesOnly{
       width: 1279px;
-      height: 1023px;
       padding: 0 80px;
-  }
-  .container{
+      height:2679px ;
+      margin-bottom: 0%;
+  } */
+  /* div.carousel slide{
+      width: 1279px;
+    margin-bottom: 0%;
+      padding: 0 80px;
+        height: 416px; 
+  } */
+  /* .container{
       max-width: 100%;
       padding: 0,80px;
-  }
+        
+  } */
   .row{
       display: flex;
       flex-wrap: wrap;
@@ -107,3 +124,84 @@ input{
       text-decoration: none;
       background-color: transparent;
   }
+  .diversity-at-work_diversityAtWork{
+      background-color: #fff;
+      padding: 80px 0;
+      width: 1279px;
+      height: 1177px;
+  }
+  .diversity-at-work_diversityAtWork.container{
+      max-width: 100%;
+      padding: 0 15px;
+  }
+  .diversity-at-work_diversityAtWork.row{
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+  }
+  .diversity-at-work_diversityAtWork.text-left{
+      text-align: left;
+  }
+  .diversity-at-work_diversityAtWork.col-sm-12{
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  /* div{
+      display: block;
+  } */
+.diversity-at-work_headerTop{
+    position: absolute;
+    width: 50px;
+    height: 8px;
+    margin-top: -25px;
+    object-fit: contain;
+    background-image: linear-gradient(90deg,#ffe600 -33%,#c2d717 14%,#39b54a 96%);
+}
+h3.mb-4{
+    position: relative;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+h5.mb-4{
+    /* color: #202020; */
+    font-size: 1.5rem;
+    font-family:Titillium Web, sans-serif;
+    text-transform: none;
+    text-align: left;
+
+}
+.diversity-at-work_headerTitle p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    padding-right: 88px;
+    line-height: 1.33;
+    color: #2a2727;
+    letter-spacing: .15px;
+    font-family:Titillium Web, sans-serif;
+}
+div.col-xl-8{
+    width: 766px;
+    height: 981px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    width: 100%;
+
+}
+.col-xl-8 .row{
+    width: 766px;
+    height: 981px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex: 0 0 66.66667%;
+    /* max-width: 66.66667%; */
+}
+
+    
+ 

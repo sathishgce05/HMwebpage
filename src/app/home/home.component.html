@@ -1,47 +1,58 @@
  
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-         <!-- <ul>
-           <li *ngFor="let carouseldata of carouselsdata">
-             {{carousedata.images}}
+       <!-- <div class="carousel-container"> -->
+       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          
+            <img [src]="carouselDisplay[0].imageUrl" class="d-block w-100" alt="...">
+            <p>{{carouselDisplay[0].title}}</p>
+          <p>{{carouselDisplay[0].description}}</p>
+          <p>{{carouselDisplay[0].linkText}}</p>
+          </div>
 
-           </li>
-         </ul> -->
-       
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
+          <div class="carousel-item">
+            <img [src]="carouselDisplay[1].imageUrl" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img [src]="carouselDisplay[2].imageUrl" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img [src]="carouselDisplay[3].imageUrl" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+        
+       <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
+      
+        <!-- <ul class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
           <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ul>
-<div class="carousel-inner fluid">
-    <div class="carousel-item active">
-     
-      <img [src]="carouselDisplay[0].imageUrl" alt="Los Angeles" width="100%" height="85%"  >
-      <!-- <h1>Culture</h1>
-      <p>Our Mission is simple-Happiest People.Happiest Customer</p> -->
-      <!-- <img width="400px" height="400px" alt="Trip Logo" src="../../assets/img/download.jfif"> -->
-    </div>
-    <div class="carousel-item">
+        </ul> 
+ <div class="carousel-inner fluid"> 
+     <div class="carousel-item active"> -->
+      
+      <!-- <img [src]="carouselDisplay[0].imageUrl" alt="Los Angeles" width="100%" height="85%"  >
+    </div> 
+     <div class="carousel-item">
       <img [src]="carouselDisplay[1].imageUrl" alt="Chicago" width="100%" height="85%">
-      <!-- <img width="400px" height="400px" alt="Trip Logo" src="../../assets/img/download.jfif"> -->
     </div>
     <div class="carousel-item">
       <img [src]="carouselDisplay[2].imageUrl" alt="New York" width="100%" height="85%">
-      <!-- <img width="400px" height="400px" alt="Trip Logo" src="../../assets/img/download.jfif"> -->
     </div>
     <div class="carousel-item">
      <img [src]="carouselDisplay[3].imageUrl" alt="New York" width="100%" height="85%">
-     <!-- <img width="400px" height="400px" alt="Trip Logo" src="../../assets/img/download.jfif"> -->
-   </div>
-   <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+   </div>  -->
+   <!-- <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </a>
   <a class="carousel-control-next" href="#myCarousel" data-slide="next">
     <span class="carousel-control-next-icon"></span>
-  </a>
-   
-   <!-- <div class="slick-list">
+  </a>  -->
+   <div class="slick-list container"> 
+    <div class="slick-list">
        <div class="slick-track" style="width:11511px; opacity:1; transform:translate3d(-516px,0px,0px);">
     <ul class="slick-dots" style="display: block;">
         <button type="button" data-role="none" class="slick-arrow slick-next" style="display: block;">
@@ -60,16 +71,14 @@
 
       </li>
     </ul>
-    </div> -->
+    </div>
 
-   </div>
+   </div> 
+  </div> 
 
-  </div>
+  
 
-  <!-- <button mat-flat-button color="warn" (click)="openDialog()">Login</button>  -->
-
-
-<div class="row">
+<div style="margin-top:-65px;" class="row">
         
     <div style="background-color: #49b6ba;" class="col-md-9">
          <input type="search" id="mySearch" placeholder="Search by skills"> 
@@ -257,6 +266,138 @@
 
           </div>
 
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="diversity-at-work_diversityAtWork">
+    <div class="container">
+      <div class="row">
+        <div class="text-left col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+          <div style="width: 353px; height: 512px;" class="diversity-at-work_headerTitle">
+            <span class="diversity-at-work_headerTop"></span>
+            <h3 class="mb-4">Diversity@Work</h3>
+            <h5 class="mb-4">
+              <b>Our Commitment</b>
+            </h5>
+            <p>
+              "Inclusion and diversity are fundamental to a culture and core values. 
+              At Happiest Minds, we strive to ensure that everyone can retain their identity that 
+              reflects their cultural experiences and feelings. We believe that no one should 
+              be discriminated against because of their differences, such as age, ability, 
+              ethnicity, gender, expression or religion."
+            </p>
+            <p>
+              "Diversity makes us stronger, more innovative, more competitive and more creative, 
+              which helps us better serve our clients and our communities. This resonates with 
+              our mission statement: Happiest People. Happiest Customers."
+            </p>
+            <p>
+              "We remain committed to an inclusive and diverse workplace, where people can be 
+              who they are and be their best, professionally and personally."
+            </p>
+
+          </div>
+
+        </div>
+        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+          <div class="row">
+            <div class="d-block col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="diversity-at-work_diversityCard__wr-Eg card">
+                <img class="card-img-top" [src]="diversityData[0].thumbnailUrl" >
+                <div class="diversity-at-work_portfolioContent__2wWkx">
+                  <img width="20px" height="20px" src="assets/images/expand.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-block col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="diversity-at-work_diversityCard__wr-Eg card">
+                <img class="card-img-top" src="https://careers.happiestminds.com/cp/assets/images/diversity/diversity-2.jpg">
+                <div class="diversity-at-work_portfolioContent__2wWkx">
+                  <img width="20px" height="20px" src="assets/images/expand.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-block col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="diversity-at-work_diversityCard__wr-Eg card">
+                <img class="card-img-top" src="https://careers.happiestminds.com/cp/assets/images/diversity/diversity-3.jpg">
+                <div class="diversity-at-work_portfolioContent__2wWkx">
+                  <img width="20px" height="20px" src="assets/images/expand.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-block col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="diversity-at-work_diversityCard__wr-Eg card">
+                <img class="card-img-top" src="https://careers.happiestminds.com/cp/assets/images/diversity/diversity-4.jpg">
+                <div class="diversity-at-work_portfolioContent__2wWkx">
+                  <img width="20px" height="20px" src="assets/images/expand.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-block col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="diversity-at-work_diversityCard__wr-Eg card">
+                <img class="card-img-top" src="https://careers.happiestminds.com/cp/assets/images/diversity/diversity-5.jpg">
+                <div class="diversity-at-work_portfolioContent__2wWkx">
+                  <img width="20px" height="20px" src="assets/images/expand.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-block col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="diversity-at-work_diversityCard__wr-Eg card">
+                <img class="card-img-top" src="https://careers.happiestminds.com/cp/assets/images/diversity/diversity-6.jpg">
+                <div class="diversity-at-work_portfolioContent__2wWkx">
+                  <img width="20px" height="20px" src="assets/images/expand.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-block col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="diversity-at-work_diversityCard__wr-Eg card">
+                <img class="card-img-top" src="https://careers.happiestminds.com/cp/assets/images/diversity/diversity-7.jpg">
+                <div class="diversity-at-work_portfolioContent__2wWkx">
+                  <img width="20px" height="20px" src="assets/images/expand.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-block col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="diversity-at-work_diversityCard__wr-Eg card">
+                <img class="card-img-top" src="https://careers.happiestminds.com/cp/assets/images/diversity/diversity-8.jpg">
+                <div class="diversity-at-work_portfolioContent__2wWkx">
+                  <img width="20px" height="20px" src="assets/images/expand.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-block col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="diversity-at-work_diversityCard__wr-Eg card">
+                <img class="card-img-top" src="https://careers.happiestminds.com/cp/assets/images/diversity/diversity-9.jpg">
+                <div class="diversity-at-work_portfolioContent__2wWkx">
+                  <img width="20px" height="20px" src="assets/images/expand.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-block col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="diversity-at-work_diversityCard__wr-Eg card">
+                <img class="card-img-top" src="https://careers.happiestminds.com/cp/assets/images/diversity/diversity-10.jpg">
+                <div class="diversity-at-work_portfolioContent__2wWkx">
+                  <img width="20px" height="20px" src="assets/images/expand.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-block col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="diversity-at-work_diversityCard__wr-Eg card">
+                <div class="diversity-at-work_wrapper__1CmTU">
+                  <div class="diversity-at-work_icon__MvOVR">
+                    <i class="fa fa-play-circle-o"></i>
+                  </div>
+                  <img class="card-img-top" src="https://careers.happiestminds.com/cp/assets/images/diversity/diversity-11.jpg">
+                  <div class="diversity-at-work_portfolioContent__2wWkx">
+                    <img width="20px" height="20px" src="assets/images/expand.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

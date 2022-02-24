@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+.layout_pageContainer{
+    width: 100%;
+    height: 392px;
+     background:#EEEEEE;
+    display: block;
+}
+div.container{
+     background-color: #EEEEEE; 
+    padding: 0 80px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.undefined{
+    width: 1119px;
+    height: 392px;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+h3.job-list_innerHead{
+    width: 1119px;
+    height: 90px;
+}
+.job-list_innerHead{
+    position: relative;
+    margin-top: 8px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    color: #272727;
+    text-align: left;
+    letter-spacing: .44px;
+    line-height: 1.14;
+    font-size: normal;
+    font-weight: 400;
+    font-size: 44px;
+}
+.job-search_jobSearch{
+    width: 1149px;
+    height: 72px;
+    position: relative;
+    z-index: 9999;
+}
+.mt-2{
+    margin-top: .5rem;
+}
+.job-search_jobSearch.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+div.job-search_searchContainer{
+    width: 383px;
+    height: 72px;
+}
+.job-search_searchContainer.col-xl-4{
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    position: relative;
+    width: 100%;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+}
+div.pb-4{
+    width: 353px;
+    height: 58px;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    margin: 0 0 14px;
+    padding: 0 0 21px;
+}
+div.rbt{
+    width: 353;
+    height: 37;
+    padding: 0 12px;
+}
+.job-search_searchContainer input{
+    background: none;
+    font-size: 14px;
+    /* color: #8d8d8d; */
+    border: none;
+    border-radius: unset;
+    padding: 0 12px;
+    width: 100%;
+    border-bottom: 1px solid #8d8d8d;
+}
+div.job-search_searchContainer col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12{
+    width: 287px;
+    height: 72px;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+   
+
+}
+select.job-search_dropdown{
+    width: 257px;
+    height: 33px;
+    color: #8d8d8d;
+    /* line-height: 2.5; */
+    display: flex;
+    flex-direction: column;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #8d8d8d;
+    text-align: left;
+    border-radius: unset;
+    box-shadow: none;
+  padding: 5px 10px;
+}
+.form-control{
+    /* width: 100%; */
+    height: calc(1.5em+.75rem+2px);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .375rem .75rem;
+}
+button,select{
+    text-transform: none;
+}
+select{
+    word-wrap: normal;
+}
+button, input, optgroup, select, textarea{
+    margin: 0;
+    font-family: inherit;
+}
+option{
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}

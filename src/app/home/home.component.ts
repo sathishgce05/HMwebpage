@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
 
   
   carouselDisplay:any=[];
+  diversityData: any;
   // displaydata:any=[];
 
   constructor(private carouseldataapi:CarouselDataService) { }
@@ -25,6 +26,11 @@ export class HomeComponent implements OnInit {
       console.log(result);
       this.carouselDisplay = result.data;
       console.log(result.data);
+    })
+
+    this.carouseldataapi.getDiversityData().subscribe((result: any) => {
+      this.diversityData = result.mediaInfo;
+      console.log(result.mediaInfo)
     })
   }
 }
