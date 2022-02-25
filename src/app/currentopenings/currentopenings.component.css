@@ -75,7 +75,7 @@ div.pb-4{
 div.rbt{
     width: 353;
     height: 37;
-    padding: 0 12px;
+    padding: 0 10px;
 }
 .job-search_searchContainer input{
     background: none;
@@ -83,8 +83,8 @@ div.rbt{
     /* color: #8d8d8d; */
     border: none;
     border-radius: unset;
-    padding: 0 12px;
-    width: 100%;
+    /* padding: 0 12px; */
+    /* width: 100%; */
     border-bottom: 1px solid #8d8d8d;
 }
 div.job-search_searchContainer col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12{
@@ -92,7 +92,7 @@ div.job-search_searchContainer col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12{
     height: 72px;
     flex: 0 0 25%;
     max-width: 25%;
-    padding: 0 15px;
+    padding: 0 12px;
    
 
 }
@@ -135,4 +135,26 @@ option{
     white-space: nowrap;
     min-height: 1.2em;
     padding: 0px 2px 1px;
+}
+select.job-search_dropdown {
+    /* line-height: 2.5; */
+    display: flex;
+    flex-direction: column;
+    background: none;
+    outline: none;
+    color: #8d8d8d;
+    border: none;
+    border-bottom: 1px solid #8d8d8d;
+    border-radius: unset;
+    text-align: left;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+.form-control{
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
 }

@@ -5,14 +5,9 @@
      flex-wrap: wrap;
       margin-right: -15px;
       margin-left: -15px;
+      /* flex-direction: column; */
     }
-    /* .carousel-item p{
-        margin-top: -50px;
-        font-style: normal;
-        font-weight: 14px;
-        font-size: 30px;
-
-    } */
+    
 svg{
     height: 42px;
     width: 38px;
@@ -20,28 +15,28 @@ svg{
     color: white;
     /* background-color: #fff; */
     margin-left: 20px;
+    
 }
 .slick-prev{
     left: -25px;
 }
-input{
-    margin-top: 50px;
-    margin-left: 80px;
-    /* float: right; */
+option.job-search_dropdown form-control{
+    padding: 0px 2px 1px;
+    width: 20px;
+    margin-right: 100px;
+    float: right;
+    margin: 15px;
 }
-.placeholder{
-    width: 500px;
-    height: 50px;
-}
-/* .carousel-control-next, .carousel-control-prev {
-    top:260px;
-  }   */
+
+
+
   .technology-info_technologyInfo{
       background-color: #EEEEEE;
       padding: 80px 0px;
       position: relative;
       width: 1279px;
-      height: 1183px;
+      height: 1100px;
+      /* float: left; */
   }
   .technology-info_headerTop+h3{
       font-size: 35px;
@@ -60,23 +55,7 @@ input{
       object-fit: contain;
       background-image: linear-gradient(90deg,#ffe600 -33%,#c2d717 14%,#39b54a 96%);
   }
-  /* div.carouselExampleSlidesOnly{
-      width: 1279px;
-      padding: 0 80px;
-      height:2679px ;
-      margin-bottom: 0%;
-  } */
-  /* div.carousel slide{
-      width: 1279px;
-    margin-bottom: 0%;
-      padding: 0 80px;
-        height: 416px; 
-  } */
-  /* .container{
-      max-width: 100%;
-      padding: 0,80px;
-        
-  } */
+  
   .row{
       display: flex;
       flex-wrap: wrap;
@@ -104,6 +83,7 @@ input{
   .technology-info_card{
       background-color: transparent;
       border: none;
+      float: right;
   }
   .card{
       position: relative;
@@ -203,5 +183,22 @@ div.col-xl-8{
     /* max-width: 66.66667%; */
 }
 
+.col-md-9{
+display: flex;
+flex-direction: row;
+/* align-items: center; */
+padding: 54px 57px;
+/* margin-left: 10px; */
+/* padding-left: 0px; */
+/* float: right; */
+
+
+
+}
     
- 
+ .column{
+     width: 29%;
+     margin-right: 10px;
+     margin-left: 10px;
+     flex: 0 0 29%;
+ }
