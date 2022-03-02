@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { CarouselDataService } from '../services/carousel-data.service';
 
 @Component({
@@ -13,7 +14,7 @@ export class HomeComponent implements OnInit {
   diversityData: any;
   // displaydata:any=[];
 
-  constructor(private carouseldataapi:CarouselDataService) { }
+  constructor(private carouseldataapi:CarouselDataService,private router:Router) { }
   
     // this.carouselData.carousel().subscribe((data)=>{
     //   this.carousel=data;
@@ -32,6 +33,10 @@ export class HomeComponent implements OnInit {
       this.diversityData = result.mediaInfo;
       console.log(result.mediaInfo)
     })
+
+  }
+  recommendMe(){
+    this.router.navigate(['/jobrecommender']);
   }
 }
 

@@ -4,6 +4,7 @@ import { BenefitsComponent } from './benefits/benefits.component';
 import { CompanywebsiteComponent } from './companywebsite/companywebsite.component';
 import { CurrentopeningsComponent } from './currentopenings/currentopenings.component';
 import { HomeComponent } from './home/home.component';
+import { JobrecommenderComponent } from './jobrecommender/jobrecommender.component';
 import { LifeWorkComponent } from './life-work/life-work.component';
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path:'currentopenings',component:CurrentopeningsComponent},
   {path:'benefits',component:BenefitsComponent},
   {path:'life@work',component:LifeWorkComponent},
-  {path:'companywebsite',component:CompanywebsiteComponent}
+  {path:'companywebsite',component:CompanywebsiteComponent},
+  {path:'jobrecommender',component:JobrecommenderComponent}
 ];
 
 @NgModule({

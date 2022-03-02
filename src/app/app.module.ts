@@ -13,6 +13,7 @@ import { BenefitsComponent } from './benefits/benefits.component';
 import { LifeWorkComponent } from './life-work/life-work.component';
 import { CompanywebsiteComponent } from './companywebsite/companywebsite.component';
 import{HttpClientModule}from'@angular/common/http';
+import { JobrecommenderComponent } from './jobrecommender/jobrecommender.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import{HttpClientModule}from'@angular/common/http';
     CurrentopeningsComponent,
     BenefitsComponent,
     LifeWorkComponent,
-    CompanywebsiteComponent
+    CompanywebsiteComponent,
+    JobrecommenderComponent
   ],
   imports: [
     BrowserModule,

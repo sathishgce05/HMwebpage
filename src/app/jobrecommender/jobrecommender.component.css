@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+div.job-recommender_container{
+    width: 1279px;
+    height: 424px;
+    padding: 0px 80px 42px;
+    background-color: #EEEEEE;
+}
+h3.job-recommender_innerheader{
+    position: relative;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: .44px;
+    text-align: left;
+    color: #272727;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+div.row{
+    font-size: 14px;
+    color: #777;
+    overflow-x: hidden!important;
+    letter-spacing: normal;
+}
+div.col{
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+div.job-recommender_block{
+    margin-right: 80px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+div.headerBlock{
+    cursor: pointer;
+    margin-bottom: 15px;
+    word-break: break-word;
+}
+h3{
+    font-family: Titillium Web,sans-serif;
+    font-weight: 400;
+    color: #202020;
+    margin-top: 0;
+    font-style: normal;
+    text-transform: none;
+    line-height: 1.2;
+
+    font-size: 1.75rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+    word-break: break-word;
+
+}
+.headerBlock h3:hover{
+color: #82c62e;
+}
+
+
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+input.job-recommender_formcontrol{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 7px 13px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    font-size: 15px;
+    outline: none;
+    background: none;
+    align-items: center;
+}
+div.job-recommender-fillUploadButton{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: .5rem;
+
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+div.doc_block{
+    text-align: left;
+    font-size: 9px;
+    color: rgb(39, 39, 39);
+}
+.job-recommender_button{
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 27px;
+}
+button.btn btn-primary{
+    border-color: #007bff;
+    opacity: .65;
+    background-color: #ccc!important;
+    cursor: no-drop;
+}
+div.col{
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+}
+.contentTitle{
+    color: #82c62e;
+    font-size: 23px;
+    font-weight: 600;
+}
+/* .subcontent{
+    font-size: 15px;
+    color: #474444;
+    margin-bottom: 23px;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: .15px;
+} */
+p.contentsub{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0;
+    font-size: 15px;
+    color: #474444;
+    margin-bottom: 23px;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: .15px;
+}
+
+
+.vl {
+  border-left: 1px solid #474444;
+  height: 500px;
+  margin-left:500px;
+  /* margin-top: 0px; */
+  top: 0%;
+  
+}
